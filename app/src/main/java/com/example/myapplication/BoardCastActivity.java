@@ -23,7 +23,9 @@ public class BoardCastActivity extends AppCompatActivity {
 
         IntentFilter intentFilter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
         registerReceiver(broadcastRecieverExample,intentFilter);
+
     }
+
     @Override
     protected void onStop() {
         super.onStop();
